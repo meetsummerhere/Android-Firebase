@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Memodiary" >
     <activity
-        android:name=".LoginActivity"
+        android:name=".SplashScreen"
         android:theme="@style/AppTheme.NoActionBar">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -33,6 +33,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
             android:label="@string/title_activity_reset_password"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
